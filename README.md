@@ -53,7 +53,7 @@ La documentació tècnica completa del projecte està publicada a **[https://vis
 
 ## Llicència
 
-[MIT](LICENSE).
+[AGPLv3](LICENSE)
 
 ## Crèdits
 
