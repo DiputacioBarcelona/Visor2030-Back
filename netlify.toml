@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  environment = { NODE_VERSION = "18", VITE_API_URL = "https://visor2030-f642d89e81f4.herokuapp.com/", VITE_FRONTEND_URL = "https://ot-diba-visor2030.netlify.app/#/" }
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

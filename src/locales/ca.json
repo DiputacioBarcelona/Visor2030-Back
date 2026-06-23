@@ -1,0 +1,1676 @@
+{
+  "TITLE": "Home",
+  "SDG": "ODS {sdg}",
+  "TARGET": "Fita {target}",
+  "INDICATORS": "Indicadors",
+  "INDICATOR": "Indicador",
+  "EVOLUCIO": "Evolució",
+  "PREVIOUS_YEAR": "Any anterior",
+  "COMARCA_AVERAGE": "Comarca del {comarca}",
+  "PROVINCE_AVERAGE": "Província de Barcelona",
+  "SOURCE": "Fonts de dades i metodologia",
+  "PROVINCIA_BARCELONA": "Província de Barcelona",
+  "NO_MUNICIPALITY_DATA": "No hi ha dades disponibles per a aquest municipi",
+  "CHOOSE_TARGET": "Tria la fita per la qual vols veure els indicadors",
+  "HIGH": "Alta",
+  "MEDIUM": "Mitja",
+  "LOW": "Baixa",
+  "VERY_HIGH": "Molt alta",
+  "SI": "Sí",
+  "NO": "No",
+  "UNKNOWN": "---",
+  "ACTUALITZAT": "Actualitzat",
+  "NO_ACTUALITZAT": "No actualitzat",
+  "SDGS": {
+    "1": {
+      "TITLE": "Fi de la pobresa",
+      "DESCRIPTION": "Posar fi a la pobresa en totes les seves formes arreu del món.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Erradicar la pobresa extrema",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Població amb ingressos < 40%",
+              "DESCRIPTION": "Percentatge de població que viu en unitats de consum amb una renda disponible inferior al 40% de la mitjana",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Reduir la proporció de població que viu en la pobresa, augmentant els programes integrals que l'abordin en totes les seves dimensions.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Població amb ingressos < 60%",
+              "DESCRIPTION": "Percentatge de població que viu en unitats de consum amb una renda disponible inferior al 60% de la mitjana",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "% Població amb ingressos < 60 %",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Renda mediana",
+              "DESCRIPTION": "Valor de renda que, ordenant a tots els individus de menor a major ingrés, deixa una meitat dels mateixos per sota d'aquest valor i l'altra meitat per sobre",
+              "UNIT": "€",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Renda mediana per unitat de consum",
+                  "UNIT": "€"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            },
+            "3": {
+              "TITLE": "Nombre de socis de cooperatives per 1.000 habitants",
+              "DESCRIPTION": "Nombre de socis de cooperatives per 1.000 habitants",
+              "UNIT": "socis/es/1.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Número de socis/es de cooperatives",
+                  "UNIT": "socis/es"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "DESCRIPTION": "Reforçar en l'àmbit local sistemes i mesures apropiades de protecció social per a totes les persones, aconseguint una àmplia cobertura de les persones vulnerables.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Renda Gar. Ciut. per 10.000 hab.",
+              "DESCRIPTION": "Mitjana de persones que han estat beneficiaries de la Renda Garantida de Ciutadania a l'any de referència, per cada 10.000 habitants",
+              "UNIT": "persones/10.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Mitjana de persones beneficiàries",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "DESCRIPTION": "Garantir que les persones, especialment les pobres i vulnerables, tinguin els mateixos drets, així com accés als serveis bàsics, recursos naturals, econòmics i financers en igualtat de condicions.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa de prestacions desocupació",
+              "DESCRIPTION": "Nombre de persones beneficiàries de prestacions que protegeixen la situació per atur en els àmbits contributiu, assistencial, renda activa d'inserció i programa d'activació per l'ocupació respecte el total d'aturats registrats que han tingut ocupació anterior",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Persones beneficiàries de prestacions",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Mitjana anual d'aturats registrats que han tingut ocupació anterior",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Persones beneficiàries de prestacions](https://www.diba.cat/hg2/presentaciomun.asp?prid=1327) (DIBA)\n\n- [Atur registrat](https://www.idescat.cat/pub/?id=atureg&n=4299) (IDESCAT)\n\nS'agafa la dada de Juny de les persones beneficiàries de prestacions i la mitjana anual d'aturats registrats."
+            },
+            "2": {
+              "TITLE": "Proporció de persones amb discapacitat que reben una pensió",
+              "DESCRIPTION": "Proporció de persones amb discapacitat que reben una pensió",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Pensions d'invalidesa",
+                  "UNIT": "pensions"
+                },
+                "2": {
+                  "TITLE": "Persones reconegudes legalment com a discapacitades",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Pensions d'invalidesa](https://www.idescat.cat/pub/?id=ppsr&n=9383) (IDESCAT)\n\n- [Persones reconegudes legalment com a discapacitades](https://www.idescat.cat/pub/?id=regdis&n=441) (IDESCAT)\n\n"
+            }
+          }
+        },
+        "5": {
+          "DESCRIPTION": "Fomentar la resiliència de les persones pobres i vulnerables, i reduir la seva exposició i vulnerabilitat als fenòmens extrems relacionats amb el clima i altres pertorbacions i desastres econòmics, socials i ambientals.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Refugis climàtics",
+              "DESCRIPTION": "Refugis climàtics",
+              "UNIT": "refugis/10.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Refugis climàtics",
+                  "UNIT": "refugis"
+                },
+                "2": {
+                  "TITLE": "Població",
+                  "UNIT": "persones"
+                }
+              },
+              "SUBINDICATORS": {
+                "0": {
+                  "TITLE": "Refugis gratuïts i accessibles",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Refugis",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Població",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "2": {
+                  "TITLE": "Refugis gratuïts i no accessibles",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Refugis",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Població",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "3": {
+                  "TITLE": "Refugis gratuïts i NA accessibles",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Refugis",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Població",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "4": {
+                  "TITLE": "Refugis no gratuïts i accessibles",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Refugis",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Població",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "5": {
+                  "TITLE": "Refugis no gratuïts i no accessibles",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Refugis",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Població",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "6": {
+                  "TITLE": "Refugis no gratuïts i NA accessibles",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Refugis",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Població",
+                      "UNIT": "persones"
+                    }
+                  }
+                }
+              },
+              "SOURCE": "- [Refugis climàtics](https://analisi.transparenciacatalunya.cat/Seguretat/Refugis-clim-tics-dels-municipis-de-Catalunya/9gu7-iwci/about_data) (Dades Obertes de Catalunya)"
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "TITLE": "Fam zero",
+      "DESCRIPTION": "Posar fi a la fam, aconseguir la seguretat alimentària i millorar la nutrició i promoure la agricultura sostenible.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Fomentar la productivitat agrícola i els ingressos de les persones que es dediquen a la producció d’aliments a petita escala.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Superfície agrícola ecològica",
+              "DESCRIPTION": "% Superfície agricola ecològica",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície amb certificat ecològic",
+                  "UNIT": "ha"
+                },
+                "2": {
+                  "TITLE": "Superfície destinada al conreu",
+                  "UNIT": "ha"
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "DESCRIPTION": "Fomentar la productivitat agrícola i els ingressos de les persones que es dediquen a la producció d’aliments a petita escala.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Terres agrícoles per 100 hab.",
+              "DESCRIPTION": "Superfície total destinada a conreu (aliments i farratges) respecte del nombre d'habitants (hectàrees/100 habitants)",
+              "UNIT": "ha/100 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície destinada al conreu",
+                  "UNIT": "ha"
+                },
+                "2": {
+                  "TITLE": "Total població",
+                  "UNIT": "persones"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Atur en agricultura",
+              "DESCRIPTION": "Atur en agricultura respecte l'atur total",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Mitjana anual d'atur registrat en agricultura",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Mitjana anual d'atur total",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Atur registrat. Per sectors. Mitjanes anuals](https://www.idescat.cat/pub/?id=atureg&n=4302&geo=cat) (IDESCAT)"
+            },
+            "3": {
+              "TITLE": "% d'explotacions de petita escala",
+              "DESCRIPTION": "% d'explotacions de petita escala",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Hectàrees d'explotacions de petita escala",
+                  "UNIT": "ha"
+                },
+                "2": {
+                  "TITLE": "Total d'hectàrees d'explotacions",
+                  "UNIT": "ha"
+                }
+              },
+              "SUBINDICATORS": {
+                "0": {
+                  "TITLE": "% Hectàrees d'explotacions de petita escala",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Hectàrees d'explotacions de petita escala",
+                      "UNIT": "ha"
+                    },
+                    "2": {
+                      "TITLE": "Total d'hectàrees d'explotacions",
+                      "UNIT": "ha"
+                    }
+                  }
+                },
+                "2": {
+                  "TITLE": "% Explotacions de petita escala",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Explotacions de petita escala",
+                      "UNIT": "explotacions"
+                    },
+                    "2": {
+                      "TITLE": "Total d'explotacions",
+                      "UNIT": "explotacions"
+                    }
+                  }
+                }
+              },
+              "SOURCE": "- [Cens agrari. Grandària de les explotacions per superfície total (2020)](https://www.idescat.cat/pub/?id=censag&n=16090) (IDESCAT)\n- [Cens agrari. Grandària de les explotacions per superfície total (2009)](https://www.idescat.cat/pub/?id=censag&n=5099) (IDESCAT)\n- [Cens agrari. Dimensió de les explotacions, segons la superfície total (1982–1999)](https://www.idescat.cat/pub/?id=censag&n=5099) (IDESCAT)"
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "TITLE": "Salut i benestar",
+      "DESCRIPTION": "Assegurar una vida sana i promoure el benestar per a tothom en totes les edats.",
+      "TARGETS": {
+        "4": {
+          "DESCRIPTION": "Incrementar programes de prevenció i tractament de malalties no transmissibles adreçades a la reducció de la mortalitat prematura i promoure la salut mental i el benestar.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Índex de Sobreenvelliment",
+              "DESCRIPTION": "Relació entre la població de 85 anys i més amb la població de 65 i més.",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Població de 85 anys i més",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població de 65 anys i més",
+                  "UNIT": "persones"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Edat mitjana defuncions",
+              "DESCRIPTION": "Edat mitjana defuncions",
+              "UNIT": "anys",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Edat mitjana defuncions",
+                  "UNIT": "anys"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "6": {
+          "DESCRIPTION": "Reduir a la meitat el nombre de morts i lesions causats per accidents de trànsit.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa mortalitat trànsit",
+              "DESCRIPTION": "Persones mortes o ferides greus en accidents de trànsit per cada 10.000 habitants",
+              "UNIT": "persones/10.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre de morts i ferits greus",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "TITLE": "Educació de qualitat",
+      "DESCRIPTION": "Assegurar una educació inclusiva, equitativa i de qualitat i promoure oportunitats d'aprenentatge durant tota la vida per a tothom.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Reduir substancialment l'abandonament escolar prematur, assegurant l'accés a l'educació gratuïta, equitativa i de qualitat.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa matriculació PFI",
+              "DESCRIPTION": "Alumnes matriculats a PFI sobre el total de població d'entre 16 i 21 anys al municipi.",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre total d'alumnes matriculats a PFI",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Nombre total de població d'entre 16 i 21 anys",
+                  "UNIT": "persones"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Taxa graduació ESO",
+              "DESCRIPTION": "Graduats d'educació secundària obligatòria del municipi respecte el total de matriculats a 4t d'ESO.",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre total d'alumnes de 4t d'ESO que promocionen",
+                  "UNIT": "alumnes"
+                },
+                "2": {
+                  "TITLE": "Nombre total d'alumnes de 4t d'ESO",
+                  "UNIT": "alumnes"
+                }
+              },
+              "SOURCE": "- [Estadística de l'ensenyament. Educació secundària obligatòria.](https://educacio.gencat.cat/ca/departament/estadistiques/estadistiques-ensenyament/curs-actual/eso/) (Departament d'Educació i Formació Professional de la Generalitat de Catalunya)"
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Vetllar perquè tots els infants tinguin accés a serveis d’atenció i desenvolupament en la primera infantesa i a un ensenyament preescolar de qualitat.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa educació infantil 1r cicle",
+              "DESCRIPTION": "Percentatge d'infants de 0-2 anys que estan escolaritzats en educació infantil de primer cicle al municipi (dades globals, i per sector de titularitat: públic corporacions locals, públic Dpt. Educació, privat).",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre total d'alumnes matriculats a primer cicle d'educació infantil",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Nombre total de població d'entre 0 i 2 anys",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "DESCRIPTION": "Augmentar substancialment el nombre de joves i persones adultes perquè tinguin les competències necessàries per accedir al mercat de treball, a un lloc de treball digne i a l'emprenedoria, en condicions d'igualtat.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Nivell de formació assolit",
+              "DESCRIPTION": "Nivell de formació assolit",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Població de 15 anys o més amb educació primària o inferior",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Total de població de 15 anys o més",
+                  "UNIT": "persones"
+                }
+              },
+              "SUBINDICATORS": {
+                "0": {
+                  "TITLE": "Educació primària o inferior",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Població de 15 anys o més amb educació primària o inferior",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Total de població de 15 anys o més",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "2": {
+                  "TITLE": "Primera etapa d’educació secundària i similar",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Població de 15 anys o més amb primera etapa d’educació secundària i similar",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Total de població de 15 anys o més",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "3": {
+                  "TITLE": "Segona etapa d’educació secundària i similar",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Població de 15 anys o més amb segona etapa d’educació secundària i similar",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Total de població de 15 anys o més",
+                      "UNIT": "persones"
+                    }
+                  }
+                },
+                "4": {
+                  "TITLE": "Educació superior",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "Població de 15 anys o més amb educació superior",
+                      "UNIT": "persones"
+                    },
+                    "2": {
+                      "TITLE": "Total de població de 15 anys o més",
+                      "UNIT": "persones"
+                    }
+                  }
+                }
+              },
+              "SOURCE": "- [Població. Per nivell de formació assolit](https://www.idescat.cat/pub/?id=censph&n=7104&hist=taules%2Fv2%2Fcensph%2F7104%2F20170%2Fmun%2Fdata%5Ec%3D2%2Fr%3D1%2Ft%3D-1c%3B-0d%2C0%3B-2c%2Fe%3D0) (IDESCAT)"
+            }
+          }
+        },
+        "5": {
+          "DESCRIPTION": "Eliminar les disparitats de gènere en l’educació i garantir l’accés en condicions d’igualtat a tots els col·lectius vulnerables.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Índex de paritat en activitats educatives",
+              "DESCRIPTION": "Índex de paritat entre dones i homes de la població de més de 15 anys que han realitzat activitats educatives en els darrers 12 mesos.",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Dones que estudien",
+                  "UNIT": "dones"
+                },
+                "2": {
+                  "TITLE": "Homes que estudien",
+                  "UNIT": "homes"
+                }
+              },
+              "SOURCE": "- [Població de 15 anys o més. Pel nivell més alt dels estudis en curs i sexe.](https://api.idescat.cat/taules/v2/censph/16690/20161/mun/) (IDESCAT)"
+            }
+          }
+        },
+        "a": {
+          "DESCRIPTION": "Garantir que els equipaments educatius responguin a les necessitats dels infants i les persones amb discapacitat i tinguin en compte les qüestions de gènere, oferint entorns d’aprenentatge segurs, no violents, inclusius i eficaços.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa d'alumnes per professor",
+              "DESCRIPTION": "Taxa d'alumnes per professor",
+              "UNIT": "alumn./prof.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Alumnes en centres públics *",
+                  "UNIT": "alumnes"
+                },
+                "2": {
+                  "TITLE": "Professorat en centres públics *",
+                  "UNIT": "professor/es"
+                }
+              },
+              "SOURCE": "- [Alumnes matriculats per ensenyament i unitats dels centres docents](https://analisi.transparenciacatalunya.cat/Educaci-/Alumnes-matriculats-per-ensenyament-i-unitats-dels/xvme-26kg/about_data) (Dades Obertes de Catalunya)\n- [Personal docent en centres públics titularitat del Departament d’Educació](https://analisi.transparenciacatalunya.cat/Educaci-/Personal-docent-en-centres-p-blics-titularitat-del/2ip7-jdgh/about_data) (Dades Obertes de Catalunya)"
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "TITLE": "Igualtat de gènere",
+      "DESCRIPTION": "Aconseguir la igualtat entre els gèneres i empoderar totes les dones i les nenes.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Posar fi a totes les formes de discriminació de gènere.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Diferència atur dones vs homes",
+              "DESCRIPTION": "(Dones aturades - Homes aturats) / total aturats",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Mitjana anual d'atur registrat (dones)",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Mitjana anual d'atur registrat (homes)",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Atur registrat. Per sexe. Mitjanes anuals](https://www.idescat.cat/pub/?id=atureg&n=4299&geo=cat) (IDESCAT)"
+            }
+          }
+        },
+        "5": {
+          "DESCRIPTION": "Vetllar per la participació plena i efectiva de les dones, i per la igualtat d’oportunitats de lideratge en tots els àmbits de presa de decisions en la vida política, econòmica i pública.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Càrrecs electes dones",
+              "DESCRIPTION": "Percentatge de càrrecs electes del consistori municipal ocupats per dones",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Càrrecs electes ocupats per dones",
+                  "UNIT": "càrrecs"
+                },
+                "2": {
+                  "TITLE": "Càrrecs electes totals",
+                  "UNIT": "càrrecs"
+                }
+              }
+            }
+          }
+        },
+        "c": {
+          "DESCRIPTION": "Enfortir les polítiques i els plans de igualtat de gènere i d'empoderament de dones i nenes.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa atur dones",
+              "DESCRIPTION": "Taxa atur dones",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Taxa atur dones",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Taxa ocupació dones",
+              "DESCRIPTION": "Taxa ocupació dones",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Taxa ocupació dones",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "TITLE": "Aigua neta i sanejament",
+      "DESCRIPTION": "Garantir la disponibilitat i la gestió sostenible de l’aigua i el sanejament per a tothom.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Assegurar l’accés universal i equitatiu a l’aigua potable, a un preu assequible amb especial atenció als col·lectius més vulnerables.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Preu de l'aigua €/m³",
+              "DESCRIPTION": "Preu de l'aigua (en € per m³) inclouent el preu del subminitrament, el cànon de l'aigua i el clavegueram",
+              "UNIT": "€/m³",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Preu de l'aigua",
+                  "UNIT": "€/m³"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- [Preu de l'aigua per municipi vigent a 1 de gener](https://aca.gencat.cat/web/.content/10_ACA/L_Observatori_preu_aigua/03-Preu-per-municipis-i-evolucio/Preus_per_municipi_ca.xlsx) (Agència Catalana de l'Aigua)"
+            }
+          }
+        },
+        "4": {
+          "DESCRIPTION": "Augmentar significativament l’ús eficient dels recursos hídrics en tots els sectors i assegurar la sostenibilitat de l’extracció i del proveïment d’aigua dolça.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Consum d'aigua per habitant",
+              "DESCRIPTION": "Volum d'aigua domèstica consumida (en m³ per habitant i any)",
+              "UNIT": "m³/hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Consum total d'aigua",
+                  "UNIT": "m³"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Volum consumit per municipi](https://aca.gencat.cat/web/.content/20_Aigua/08_consulta_de_dades/01_dades_obertes/01_visualitzacio_interactiva_dades/01_consum-aigua_comarques_catalunya/volum-aigua-consum-municipi.xlsx) (Agència Catalana de l'Aigua)"
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "TITLE": "Energia neta i assequible",
+      "DESCRIPTION": "Assegurar l'accés a una energia asequible, segura, sostenible i moderna per a tothom.",
+      "TARGETS": {
+        "2": {
+          "DESCRIPTION": "Augmentar substancialment la proporció d’energia renovable en el conjunt de les fonts energètiques.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% de llars amb energia renovable",
+              "DESCRIPTION": "Percentatge d'energia renovable consumida (tèrmica i elèctrica) sobre l'energia total consumida (tèrmica, elèctrica i mobilitat) a les llars i el sector terciari. Consums de combustibles líquids estimats a partir de dades provincials i catalanes. Dades de renovables incompletes. Incloem només renovables per a electricitat i per a usos tèrmics.",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Energia renovable consumida (tèrmica i elèctrica)",
+                  "UNIT": "kWh"
+                },
+                "2": {
+                  "TITLE": "Energia total consumida a les llars i el sector terciari",
+                  "UNIT": "kWh"
+                }
+              },
+              "SOURCE": "- [Consums energètics (per fonts i per sectors)](https://gissrv.diba.cat/arcgis/rest/services/SITAC/PAES/MapServer) (Diputació de Barcelona)"
+            }
+          }
+        },
+        "3": {
+          "DESCRIPTION": "Millorar substancialment l’eficiència energètica.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Consum d'energia a les llars",
+              "DESCRIPTION": "Consum final a les llars (en kWh/habitant) incloent tots els tipus d'energia. Els consums de gasoil de calefacció, biomassa, butà i propà són estimacions fetes a partir dels consums provincials o catalans.",
+              "UNIT": "kWh/hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Consum d'energia residencial",
+                  "UNIT": "kWh"
+                },
+                "2": {
+                  "TITLE": "Total població",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Consums energètics (per sectors)](https://gissrv.diba.cat/arcgis/rest/services/SITAC/PAES/MapServer) (Diputació de Barcelona)\n- [Dades històriques de població dels municipis de Catalunya](https://analisi.transparenciacatalunya.cat/Sector-P-blic/Dades-hist-riques-de-poblaci-dels-municipis-de-Cat/x5sz-niat/about_data) (Dades Obertes de Catalunya)"
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "TITLE": "Treball digne i creixement econòmic",
+      "DESCRIPTION": "Promoure el creixement econòmic sostenible, inclusiu i sostenible, l'ocupació plena i productiva i el treball digne per a toth",
+      "TARGETS": {
+        "2": {
+          "DESCRIPTION": "Augmentar de forma generalitzada la productivitat econòmica del conjunt del territori mitjançant la diversificació, la innovació, la planificació estratègica i la concertació territorial.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "PIB per habitant",
+              "DESCRIPTION": "El producte interior brut a preus de mercat (PIB pm) mesura el resultat final de l'activitat econòmica de les unitats productores en el territori.",
+              "UNIT": "€",
+              "VALUES": {
+                "1": {
+                  "TITLE": "PIB per habitant",
+                  "UNIT": "milers d'€"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "DESCRIPTION": "Promoure la creació d'ocupació digna a través de la innovació, creativitat i emprenedoria, fomentant el creixement de les petites i mitjanes empreses.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa d'ocupació",
+              "DESCRIPTION": "Nombre d'afiliats residents en un municipi respecte la població de 16 a 64 anys del municipi",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre d'afiliats",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població entre 16 i 64 anys",
+                  "UNIT": "persones"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Est. comercials per 1.000 hab.",
+              "DESCRIPTION": "Nombre d'establiments comercials per cada 1.000 habitants",
+              "UNIT": "establiments/1.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre d'establiments comercials",
+                  "UNIT": "establiments"
+                },
+                "2": {
+                  "TITLE": "Població",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "DESCRIPTION": "Aconseguir una alta taxa d'ocupació i de qualitat d'aquells col·lectius més vulnerables en el conjunt del territori, així com la igualtat de remuneració per treball d'igual valor.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Persones aturades > 45 anys",
+              "DESCRIPTION": "% Persones aturades > 45 anys sobre el total de persones > 45 anys en edat de treballar",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Persones aturades > 45 anys (mitjana anual)",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població entre 45 i 64 anys",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Atur registrat. Per sexe i edat](https://www.idescat.cat/pub/?id=atureg&n=4300) (IDESCAT)\n- [Població a 1 de gener. Per sexe i edat any a any. Municipis](https://api.idescat.cat/taules/v2/pmh/1180/8078/mun) (IDESCAT)\n- [Població a 1 de gener. Per sexe i edat any a any. Comarques](https://api.idescat.cat/taules/v2/pmh/1180/8078/com) (IDESCAT)\n- [Població a 1 de gener. Per sexe i edat any a any. Provincies](https://api.idescat.cat/taules/v2/pmh/1180/8078/prov) (IDESCAT)\n"
+            },
+            "2": {
+              "TITLE": "% Persones aturades < 25 anys",
+              "DESCRIPTION": "% Persones aturades < 25 anys sobre el total de persones < 25 anys en edat de treballar",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Persones aturades < 25 anys (mitjana anual)",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població entre 16 i 24 anys",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Atur registrat. Per sexe i edat](https://www.idescat.cat/pub/?id=atureg&n=4300) (IDESCAT)\n- [Població a 1 de gener. Per sexe i edat any a any. Municipis](https://api.idescat.cat/taules/v2/pmh/1180/8078/mun) (IDESCAT)\n- [Població a 1 de gener. Per sexe i edat any a any. Comarques](https://api.idescat.cat/taules/v2/pmh/1180/8078/com) (IDESCAT)\n- [Població a 1 de gener. Per sexe i edat any a any. Provincies](https://api.idescat.cat/taules/v2/pmh/1180/8078/prov) (IDESCAT)\n"
+            }
+          }
+        },
+        "9": {
+          "DESCRIPTION": "Reforçar les polítiques de promoció d'un turisme sostenible, de proximitat, qualitat i que creï ocupació i promogui la cultura i els productes locals.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Pressió turística",
+              "DESCRIPTION": "Ratio de places turístiques per 10.000 habitants",
+              "UNIT": "places/10.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Places turístiques",
+                  "UNIT": "places"
+                },
+                "2": {
+                  "TITLE": "Població",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "9": {
+      "TITLE": "Indústria, innovació i infraestructures",
+      "DESCRIPTION": "Construir infraestructures resilents, promoure la industrialització inclusiva i sostenible i fomentar la innovació.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Desenvolupar infraestructures sostenibles, resilients, de qualitat i amb elevada capacitat transformadora per tal de donar suport al desenvolupament econòmic del territori, amb especial atenció a l’accés assequible i equitatiu.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Cobertura internet",
+              "DESCRIPTION": "Cobertura proporcionada per les xarxes fixes de, com a mínim, 100 Mbps, que comprèn les cobertures de HFC i FTTH",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Cobertura internet",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Reforçar les polítiques de suport al teixit productiu per aconseguir una industrialització inclusiva i sostenible, augmentant la contribució de la indústria a l'ocupació local i al PIB del conjunt del territori.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Ocupació al sector industrial",
+              "DESCRIPTION": "% població ocupada en el sector industrial",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Població ocupada en el sector indústria",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Total de població ocupada",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "DESCRIPTION": "Augmentar la investigació científica i millorar la capacitat tecnològica dels sectors industrials.",
+          "INDICATORS": {
+            "2": {
+              "TITLE": "Llocs de treball indústria",
+              "DESCRIPTION": "Afiliacions dins del municipi en el sector industrial respecte el total d'afiliacions dins del municipi",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Afiliacions en el sector industrial",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Total d'afiliacions",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "DESCRIPTION": "Garantir l'accés universal i assequible a Internet i a les TIC al territori.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Cobertura internet",
+              "DESCRIPTION": "Cobertura proporcionada per les xarxes fixes de, com a mínim, 100 Mbps, que comprèn les cobertures de HFC i FTTH",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Cobertura internet",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "TITLE": "Reducció de les desigualtats",
+      "DESCRIPTION": "Reduir les desigualtats en i entre els països.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Aconseguir progressivament un creixement dels ingressos del 40% més pobre de la població del territori a una taxa superior a la mitjana nacional.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Població amb ingressos < 40%",
+              "DESCRIPTION": "Percentatge de població que viu en unitats de consum amb una renda disponible inferior al 40% de la mitjana",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Índex Gini",
+              "DESCRIPTION": "Grau de desigualtat en una distribució d'una variable contínua. S'obté a partir de la suma de les diferències absolutes entre cada parell de rendes de la distribució.",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            },
+            "3": {
+              "TITLE": "Desigualtat per Renda",
+              "DESCRIPTION": "Desigualtat en la distribució a través de ràtios entre centils, que s'interpreta com la renda que s'obté per al quintil superior (és a dir, el 20% de la població amb un nivell econòmic més alt) en relació amb la del quintil inferior.",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            },
+            "4": {
+              "TITLE": "Renda per habitant",
+              "DESCRIPTION": "Relació entre el total de la renda del municipi i/o àmbit seleccionat vers la població total del municipi.",
+              "UNIT": "€/habitant",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "DESCRIPTION": "Impulsar polítiques, en especial fiscals, salarials i de protecció social per aconseguir més igualtat al territori.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% població amb ingressos < 50% per gènere",
+              "DESCRIPTION": "% població amb ingressos < 50% per gènere",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SUBINDICATORS": {
+                "0": {
+                  "TITLE": "Homes",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "% població amb ingressos < 50% (homes)",
+                      "UNIT": "%"
+                    },
+                    "2": {
+                      "TITLE": "",
+                      "UNIT": ""
+                    }
+                  }
+                },
+                "2": {
+                  "TITLE": "Dones",
+                  "VALUES": {
+                    "1": {
+                      "TITLE": "% població amb ingressos < 50% (dones)",
+                      "UNIT": ""
+                    },
+                    "2": {
+                      "TITLE": "",
+                      "UNIT": ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "11": {
+      "TITLE": "Ciutats i comunitats sostenibles",
+      "DESCRIPTION": "Fer les ciutats i els assentaments humans inclusius, segurs, resistents i sostenibles.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Aconseguir progressivament un creixement dels ingressos del 40% més pobre de la població del territori a una taxa superior a la mitjana nacional.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Esforç lloguer econòmic",
+              "DESCRIPTION": "Mitjana del preu anual del lloguer en relació amb la renda bruta familiar",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Import del lloguer mensual mitjà",
+                  "UNIT": "€"
+                },
+                "2": {
+                  "TITLE": "Renda familiar disponible bruta / per habitant",
+                  "UNIT": "€"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Proporcionar accés a sistemes de transport segurs, assequibles, accessibles, sostenibles i millorar la seguretat viària.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa mortalitat trànsit",
+              "DESCRIPTION": "Persones mortes o ferides greus en accidents de trànsit per cada 10.000 habitants",
+              "UNIT": "persones/10.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre de morts i ferits greus",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "DESCRIPTION": "Aconseguir un model urbà inclusiu i sostenible a través d'una planificació estratègica concertada amb el territori i amb la participació de la ciutadania.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Percentatge de sòl artificialitztat",
+              "DESCRIPTION": "Percentatge de sòl artificialitzat (real o potencial). Percentatge de sòl destinat a usos urbans o infraestructures respecte la superfície total de la unitat territorial",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície de sòl urbà",
+                  "UNIT": "ha"
+                },
+                "2": {
+                  "TITLE": "Superfície total",
+                  "UNIT": "ha"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Equipaments urbans per habitant",
+              "DESCRIPTION": "Equipaments urbans per habitant",
+              "UNIT": "m²/hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Equipaments urbans per habitant",
+                  "UNIT": "m²/hab."
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "DESCRIPTION": "Redoblar els esforços per protegir i salvaguardar el patrimoni cultural i natural.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Superfície (m²) zona verda",
+              "DESCRIPTION": "Relació entre volum de població municipal i espai qualificat de zona verda o espai lliure en el sòl urbà del municipi",
+              "UNIT": "m²/hab",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície de zona verda",
+                  "UNIT": "m²"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "6": {
+          "DESCRIPTION": "Reduir l’impacte ambiental negatiu en el conjunt del territori, amb especial atenció a la qualitat de l'aire i la gestió de residus municipals.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Residus domèstics en kg/hab/any",
+              "DESCRIPTION": "Producció de residus domèstics en kg/hab/any",
+              "UNIT": "kg/hab/any",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Generació total de residus",
+                  "UNIT": "t"
+                },
+                "2": {
+                  "TITLE": "Població",
+                  "UNIT": "persones"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Taxa recollida selectiva",
+              "DESCRIPTION": "Percentatge de recollida selectva de residus domèstics respecte del total produït",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Total recollida selectiva",
+                  "UNIT": "t"
+                },
+                "2": {
+                  "TITLE": "Generació total de residus",
+                  "UNIT": "t"
+                }
+              }
+            }
+          }
+        },
+        "7": {
+          "DESCRIPTION": "Proporcionar accés universal a més zones verdes i espais públics segurs, inclusius i accessibles, amb especial èmfasi a les dones, els infants, les persones grans i les persones amb discapacitat.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Superfície (m²) zona verda",
+              "DESCRIPTION": "Relació entre volum de població municipal i espai qualificat de zona verda o espai lliure en el sòl urbà del municipi",
+              "UNIT": "m²/hab",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície de zona verda",
+                  "UNIT": "m²"
+                },
+                "2": {
+                  "TITLE": "Població anual segons el padró continu",
+                  "UNIT": "habitants"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "12": {
+      "TITLE": "Producció i consum responsables",
+      "DESCRIPTION": "Assegurar modalitats de consum i producció sostenibles.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Fomentar el consum i producció sostenibles.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Instal·lacions noves d'autoconsum energia",
+              "DESCRIPTION": "Instal·lacions noves d'autoconsum energia",
+              "UNIT": "instal·lacions/100.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Instal·lacions noves d'autoconsum energia",
+                  "UNIT": "instal·lacions"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "habitants"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Assolir la gestió sostenible i un ús eficient dels recursos naturals.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Emissions de CO₂ d'edificis per habitant",
+              "DESCRIPTION": "Emissions de CO₂ d'edificis per habitant",
+              "UNIT": "kgCO₂/hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Emissions de CO₂",
+                  "UNIT": "kgCO₂"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              },
+              "SOURCE": "- [Certificats d’eficiència energètica d’edificis](https://analisi.transparenciacatalunya.cat/Energia/Certificats-d-efici-ncia-energ-tica-d-edificis/j6ii-t3w2/about_data) (Dades Obertes de Catalunya)\n- [Dades històriques de població dels municipis de Catalunya](https://analisi.transparenciacatalunya.cat/Sector-P-blic/Dades-hist-riques-de-poblaci-dels-municipis-de-Cat/x5sz-niat/about_data) (Dades Obertes de Catalunya)"
+            }
+          }
+        },
+        "5": {
+          "DESCRIPTION": "Disminuir substancialment la generació de residus mitjançant polítiques de prevenció, reducció, reciclatge i reutilització.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Taxa recollida selectiva",
+              "DESCRIPTION": "Percentatge de recollida selectva de residus domèstics respecte del total produït",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Total recollida selectiva",
+                  "UNIT": "t"
+                },
+                "2": {
+                  "TITLE": "Generació total de residus",
+                  "UNIT": "t"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Residus domèstics en kg/hab/any",
+              "DESCRIPTION": "Producció de residus domèstics en kg/hab/any",
+              "UNIT": "kg/hab/any",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Generació total de residus",
+                  "UNIT": "t"
+                },
+                "2": {
+                  "TITLE": "Població",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "13": {
+      "TITLE": "Acció pel clima",
+      "DESCRIPTION": "Adoptar mesures urgents per combatre el canvi climàtic i els seus efectes.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Enfortir la resiliència i la capacitat d’adaptació als riscos relacionats amb el clima i els desastres naturals.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Vulnerabilitat a onades de calor",
+              "DESCRIPTION": "Índex propi de vulnerabilitat a les onades de calor i increment de la temperatura (Baixa, Mitja, Alta, Molt Alta)",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Incorporar mesures relatives al canvi climàtic en les polítiques, les estratègies i els plans locals.",
+          "INDICATORS": {
+            "2": {
+              "TITLE": "Intensitat emissions de gasos",
+              "DESCRIPTION": "Relació entre les emissions de gasos d'efecte hivernacle i el consum d'energia (en kgCO₂/kWh).",
+              "UNIT": "kgCO₂/kWh",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": "kgCO₂/kWh"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        }
+      }
+    },
+    "14": {
+      "TITLE": "Vida submarina",
+      "DESCRIPTION": "Conservar i utilitzar de manera sostenible els oceans, mars i recursos marins per al desenvolupament sostenible.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Prevenir i reduir significativament la contaminació marina de tota mena i, en particular, l’ocasionada per activitats terrestres.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Platges qualitat aigua excelent",
+              "DESCRIPTION": "Percentatge de platges amb una qualitat de l'aigua de bany excel·lent respecte del total (%) d'acord amb els criteris Qualitat de les aigües de bany del Protocol de vigilància i informació de l'estat de les aigües de bany elaborat anualment per l'Agència Catalana de l'Aigua",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "% Platges qualitat aigua excelent",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Protegir i promoure la gestió sostenible dels ecosistemes marins i costaners.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Franja costanera lliure d'urbanització",
+              "DESCRIPTION": "Percentatge de la franja de 200 metres d'amplada de l'interior de la costa que no pertany a cap categoria de sòl improductiu artificial en el Mapa de Cobertes del Sòl respecte de la superfície total (%)",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Franja costanera lliure d'urbanització",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        }
+      }
+    },
+    "15": {
+      "TITLE": "Vida terrestre",
+      "DESCRIPTION": "Protegir, restaurar i promoure l'ús sostenible dels ecosistemes terrestres, gestionar de manera sostenible els boscos, lluitar contra la desertificació, aturar i revertir la degradació de les terres i aturar la pèrdua de biodiversitat.",
+      "TARGETS": {
+        "1": {
+          "DESCRIPTION": "Vetllar per la conservació, el restabliment i l’ús sostenible dels ecosistemes terrestres i d'aigua dolça, en particular els boscos, els aiguamolls, les muntanyes i les zones àrides.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "% Superficie boscos",
+              "DESCRIPTION": "Superfície forestal en proporció a la superfície total",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície forestal en proporció a la superfície total",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            },
+            "2": {
+              "TITLE": "Superfície municipal amb figura de protecció i òrgan de gestió dels espais oberts",
+              "DESCRIPTION": "Percentatge de la superfície municipal protegida per figures de legislació sectorial (ENPE'S, PEIN, Xarxa Natura 2000, altres espais de la XPN) i que compta amb un òrgan de gestió per a la conservació del patrimoni natural.",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície municipal amb figura de protecció i òrgan de gestió dels espais oberts",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        },
+        "2": {
+          "DESCRIPTION": "Augmentar el número de boscos amb gestió sostenible, posant fi a la desforestació, recuperant el boscos degradats i incrementant substancialment la repoblació forestal i la reforestació.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Superfície municipal corresponent als espais oberts",
+              "DESCRIPTION": "Percentatge de la superfície municipal protegida per figures de legislació sectorial (ENPE'S, PEIN, Xarxa Natura 2000, altres espais de la XPN)",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície municipal corresponent als espais oberts",
+                  "UNIT": "%"
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        },
+        "4": {
+          "DESCRIPTION": "Vetllar per la conservació dels ecosistemes muntanyosos, en particular, de la seva diversitat biològica.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Superfície del sòl no urbanitzable",
+              "DESCRIPTION": "Superfície del sòl no urbanitzable. Qualificació del MUC en el sòl no urbanitzable (N2: Protecció)",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Superfície del sòl no urbanitzable. Qualificació del MUC en el sòl no urbanitzable (N2: Protecció)",
+                  "UNIT": "ha"
+                },
+                "2": {
+                  "TITLE": "Superfície total",
+                  "UNIT": "ha"
+                }
+              },
+              "SOURCE": "- [Dades del mapa urbanístic de Catalunya](https://analisi.transparenciacatalunya.cat/Urbanisme-infraestructures/Dades-del-mapa-urban-stic-de-Catalunya/epsm-zskb/about_data) (Dades Obertes de Catalunya)"
+            }
+          }
+        }
+      }
+    },
+    "16": {
+      "TITLE": "Pau, justícia i institucions sòlides",
+      "DESCRIPTION": "Promoure societats pacífiques i inclusives per al desenvolupament sostenible, facilitar l'accés a la justícia per a tothom i construir institucions eficaces, responsables i inclusives a tots els nivells.",
+      "TARGETS": {
+        "6": {
+          "DESCRIPTION": "Assolir institucions eficaces, responsables, transparents i que rendeixin comptes.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Grau de maduresa digital",
+              "DESCRIPTION": "Grau de transformació digital de l'ens local (0-100), fruit de l'anàlisi dels principals indicadors de govern digital i obert.",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Grau de maduresa digital (0-100)",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              }
+            }
+          }
+        },
+        "7": {
+          "DESCRIPTION": "Garantir l'adopció de decisions inclusives, participatives i representatives que responguin a les necessitats de la ciutadania.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Participació eleccions municipals",
+              "DESCRIPTION": "Nombre d'electors que realment exerceixen el seu dret de vot. S'expressa en el percentatge del nombre de votants (inclosos els vots en blanc i els nuls) respecte al nombre total d'electors.",
+              "UNIT": "%",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Votants",
+                  "UNIT": "persones"
+                },
+                "2": {
+                  "TITLE": "Cens electoral",
+                  "UNIT": "persones"
+                }
+              }
+            },
+            "2": {
+              "TITLE": "Actualització canals participació",
+              "DESCRIPTION": "Indicador binari (0 No actualitzat; 1 Actualitzat) relatiu a l'actualització dels canals de participació ciutadana disponibles al Portal de transparència municipal.",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        },
+        "10": {
+          "DESCRIPTION": "Garantir l’accés públic a la informació i protegir les llibertats fonamentals.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Actualització portals transparència",
+              "DESCRIPTION": "Grau d'actualització (0-10) de la documentació publicada al conjunt d'apartats del portal de transparència municipal",
+              "UNIT": "",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- Dades internes (Diputació de Barcelona)"
+            }
+          }
+        }
+      }
+    },
+    "17": {
+      "TITLE": "Aliances per a assolir els objectius",
+      "DESCRIPTION": "Reforçar els mitjans de implementació i revifar la societat global per a assolir els objectius de desenvolupament sostenible.",
+      "TARGETS": {
+        "2": {
+          "DESCRIPTION": "Promoure la cooperació al desenvolupament i garantir el 0,7% dels ingressos en aquest àmbit.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Pressupost destinat a ajuda oficial al desenvolupament",
+              "DESCRIPTION": "Pressupost destinat a ajuda oficial al desenvolupament",
+              "UNIT": "€",
+              "VALUES": {
+                "1": {
+                  "TITLE": "",
+                  "UNIT": ""
+                },
+                "2": {
+                  "TITLE": "",
+                  "UNIT": ""
+                }
+              },
+              "SOURCE": "- [Fons Català de Coopreació al Desenvolupament](https://fonscatala.org/observatori-de-la-cooperacio-municipalista/)"
+            }
+          }
+        },
+        "1": {
+          "DESCRIPTION": "Fita 17.4",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Deute viu per habitant",
+              "DESCRIPTION": "El deute viu es calcula tenint en compte les operacions de risc en crèdits financers, valors de renda fixa i préstecs o crèdits transferits a tercers. No inclou el deute comercial de les entitats locals, és a dir, la que mantenen amb els seus proveïdors. De forma simplificada, podem dir que és la quantitat de diners que l'Ajuntament deu via crèdit",
+              "UNIT": "€/hab",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Deute viu total",
+                  "UNIT": "€"
+                },
+                "2": {
+                  "TITLE": "Cens total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        },
+        "17": {
+          "DESCRIPTION": "Promoure la constitució d'aliances eficaces en els àmbits públic, publicoprivat i de la societat civil, aprofitant les estratègies d'obtenció de recursos dels partenariats.",
+          "INDICATORS": {
+            "1": {
+              "TITLE": "Nombre entitats ONGD dividit per població",
+              "DESCRIPTION": "Nombre entitats ONGD dividit per població",
+              "UNIT": "entitats/100.000 hab.",
+              "VALUES": {
+                "1": {
+                  "TITLE": "Nombre entitats ONGD",
+                  "UNIT": "entitats"
+                },
+                "2": {
+                  "TITLE": "Població total",
+                  "UNIT": "persones"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+name: Build and Release
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      repo_name: ${{ steps.get_info.outputs.repo_name }}
+      date: ${{ steps.get_info.outputs.date }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Get repository name and current date
+        id: get_info
+        run: |
+          repo_name=$(echo ${{ github.repository }} | cut -d'/' -f2)
+          date=$(date '+%Y%m%d')
+          echo "::set-output name=repo_name::$repo_name"
+          echo "::set-output name=date::$date"
+
+      - name: Create build zip
+        run: zip -r ${{ steps.get_info.outputs.repo_name }}-${{ steps.get_info.outputs.date }}-v${{ github.run_number }}.zip dist/*
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ steps.get_info.outputs.repo_name }}-${{ steps.get_info.outputs.date }}-v${{ github.run_number }}
+          path: ${{ steps.get_info.outputs.repo_name }}-${{ steps.get_info.outputs.date }}-v${{ github.run_number }}.zip
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set Tag Name
+        id: set_tag_name
+        run: |
+          tag_name=${{ github.run_number }}-$(date '+%Y%m%d')
+          echo "Tag Name: $tag_name"
+          echo "::set-output name=tag_name::$tag_name"
+
+      - name: Get repository name and date from build job
+        id: get_build_outputs
+        run: |
+          echo "repo_name=${{ needs.build.outputs.repo_name }}" >> $GITHUB_ENV
+          echo "date=${{ needs.build.outputs.date }}" >> $GITHUB_ENV
+
+      - name: Get current date in alt format
+        id: get_date_2
+        run: |
+          date=$(date '+%d-%m-%Y')
+          echo "::set-output name=date::$date"
+
+      - name: Get Commit Messages
+        id: get_commit_messages
+        run: |
+          commits=$(curl -sL -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/${{ github.repository }}/pulls?state=closed&base=main&per_page=100")
+          pull_request_numbers=$(echo "$commits" | jq -r '.[].number')
+
+          commit_messages=""
+          for pr_number in $pull_request_numbers; do
+              pr_commits=$(curl -sL -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/${{ github.repository }}/pulls/$pr_number/commits")
+              # Check if there are commits for the PR
+              if [ "$(echo "$pr_commits" | jq -r 'length')" -gt 0 ]; then
+                  # Loop through commits and append commit messages to the commit_messages variable
+                  for commit in $(echo "$pr_commits" | jq -r '.[].commit.message'); do
+                      commit_messages="$commit_messages$commit"$'\n'
+                  done
+              fi
+          done
+
+          echo "Commit messages of merged pull requests:"
+          echo "$commit_messages"
+          echo "::set-output name=commit_messages::$commit_messages"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.set_tag_name.outputs.tag_name }}
+          release_name: " v${{ github.run_number }}"
+          body: |
+            Last release of ${{ github.repository }} (${{ steps.get_date_2.outputs.date }}).
+
+            **Changelog:**
+
+            ${{ steps.get_commit_messages.outputs.commit_messages }}
+          draft: false
+          prerelease: false
+
+      - name: Create builds directory
+        run: mkdir -p builds
+
+      - name: Download Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ env.repo_name }}-${{ env.date }}-v${{ github.run_number }}
+          path: builds
+
+      - name: List contents of builds directory
+        run: ls -l builds
+
+      - name: Get upload URL
+        id: geturl
+        run: |
+          api_response=$(curl -sL -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }}/releases/latest)
+          echo "GitHub API Response: $api_response"
+          upload_url=$(echo $api_response | jq -r '.upload_url')
+          echo "::set-output name=upload_url::$upload_url"
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.geturl.outputs.upload_url }}
+          asset_path: builds/${{ env.repo_name }}-${{ env.date }}-v${{ github.run_number }}.zip
+          asset_name: ${{ env.repo_name }}-${{ env.date }}-v${{ github.run_number }}.zip
+          asset_content_type: application/zip
+
